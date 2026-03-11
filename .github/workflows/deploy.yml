@@ -27,17 +27,15 @@ jobs:
           node-version: 20
 
       - name: Install
-        working-directory: wildwolf001
         run: npm ci
 
       - name: Build
-        working-directory: wildwolf001
         run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: personal-site/dist
+          path: dist
 
   deploy:
     needs: build
@@ -49,4 +47,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
