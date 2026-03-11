@@ -20,7 +20,7 @@ export const useProfileStore = defineStore('profile', {
     skills: ['Vue 3', 'TypeScript', 'Pinia', 'Vite', 'Axios', 'Node.js'] as string[],
 
     social: [
-      { label: 'GitHub', href: 'https://github.com/octocat' },
+      { label: 'GitHub', href: 'https://github.com/wildwolf001' },
       { label: 'Blog', href: 'https://example.com' },
       { label: 'Email', href: 'mailto:you@example.com' },
     ] as SocialLink[],
