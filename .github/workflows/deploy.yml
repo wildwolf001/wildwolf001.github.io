@@ -27,11 +27,11 @@ jobs:
           node-version: 20
 
       - name: Install
-        working-directory: personal-site
+        working-directory: wildwolf001.github.io
         run: npm ci
 
       - name: Build
-        working-directory: personal-site
+        working-directory: wildwolf001.github.io
         run: npm run build
 
       - name: Upload artifact
