@@ -63,7 +63,7 @@ onMounted(load)
         :href="s.href" 
         target="_blank" 
         rel="noreferrer"
-        class="chip"
+        class="btn--ghost"
       >
         {{ s.name }}
       </a>
