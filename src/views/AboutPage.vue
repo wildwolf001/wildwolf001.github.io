@@ -35,9 +35,17 @@ onMounted(() => {
       <div class="card">
         <h3 class="h3">技能栈</h3>
         <div class="chips">
-          <span v-for="s in profile.skills" :key="s" class="chip">{{ s }}</span>
-        </div>
-
+        <a 
+          v-for="s in profile.skills" 
+          :key="s.name" 
+          :href="s.href" 
+          target="_blank" 
+          rel="noreferrer"
+          class="chip"
+        >
+          {{ s.name }}
+        </a>
+      </div>
         <div class="divider"></div>
 
         <h3 class="h3">社交链接</h3>
