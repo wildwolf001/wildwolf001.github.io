@@ -56,14 +56,14 @@ onMounted(load)
         <a class="btn btn--ghost" href="#/about">了解更多</a>
       </div>
 
-      <div class="hero__cta">
+      <div class="chips">
       <a 
         v-for="s in profile.skills" 
         :key="s.name" 
         :href="s.href" 
         target="_blank" 
         rel="noreferrer"
-        class="btn--ghost"
+        class="chip"
       >
         {{ s.name }}
       </a>
