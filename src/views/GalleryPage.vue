@@ -48,7 +48,6 @@ const photos = ref<Photo[]>(
     .map(([path, url], idx) => {
       const base = filenameFromPath(path)
       const category = categoryFromPath(path)
-      // 约定：文件名可用 `标题__标签.jpg`，例如：`海边散步__旅行.jpg`
       const [rawTitle, rawTag] = base.split('__')
       return {
         id: `local-${idx}`,
@@ -95,7 +94,7 @@ onMounted(() => {
         <input
           v-model="query"
           class="input"
-          placeholder="搜索：旅行 / 设计 / 生活…"
+          placeholder="搜索：as you wish..."
           aria-label="Search gallery"
         />
       </div>
@@ -121,7 +120,7 @@ onMounted(() => {
           把图片放到 <code>src/assets/gallery/分类名/</code> 目录下，然后重启 dev server 即可自动显示。
         </p>
         <p class="muted">
-          你也可以用文件名覆盖标签：<code>海边散步__旅行.jpg</code>（会覆盖文件夹分类）
+          略略略
         </p>
       </div>
 

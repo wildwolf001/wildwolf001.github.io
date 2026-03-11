@@ -57,8 +57,18 @@ onMounted(load)
       </div>
 
       <div class="chips">
-        <span v-for="s in profile.skills" :key="s" class="chip">{{ s }}</span>
-      </div>
+      <a 
+        v-for="s in profile.skills" 
+        :key="s.name" 
+        :href="s.href" 
+        target="_blank" 
+        rel="noreferrer"
+        class="chip"
+      >
+        {{ s.name }}
+      </a>
+    </div>
+
     </div>
   </section>
 
