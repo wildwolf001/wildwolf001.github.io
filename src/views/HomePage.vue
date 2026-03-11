@@ -52,6 +52,7 @@ onMounted(load)
 
       <div class="hero__cta">
         <a class="btn btn--primary" href="#/projects">查看项目</a>
+        <a class="btn btn--ghost" href="#/gallery">打开图库</a>
         <a class="btn btn--ghost" href="#/about">了解更多</a>
       </div>
 

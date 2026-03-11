@@ -10,6 +10,8 @@
         <nav class="nav__links" aria-label="Primary">
           <RouterLink to="/" class="nav__link">首页</RouterLink>
           <RouterLink to="/projects" class="nav__link">项目</RouterLink>
+          <RouterLink to="/gallery" class="nav__link">图库</RouterLink>
+          <RouterLink to="/blog" class="nav__link">博客</RouterLink>
           <RouterLink to="/about" class="nav__link">关于</RouterLink>
         </nav>
       </div>
