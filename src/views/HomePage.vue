@@ -56,7 +56,7 @@ onMounted(load)
         <a class="btn btn--ghost" href="#/about">了解更多</a>
       </div>
 
-      <div class="chips">
+      <div class="hero__cta">
       <a 
         v-for="s in profile.skills" 
         :key="s.name" 
