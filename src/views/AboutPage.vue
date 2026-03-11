@@ -24,11 +24,9 @@ onMounted(() => {
       <div class="card">
         <h3 class="h3">简介</h3>
         <p class="muted">
-          这里是一段更长的自我介绍：你可以写你的经历、擅长方向、正在关注的技术，以及想做的产品类型。
         </p>
         <p class="muted">
-          这个站点采用 Vite 构建、Vue3 + TypeScript 开发，状态管理用 Pinia，数据请求用 Axios，
-          并可一键部署到 GitHub Pages。
+          无
         </p>
       </div>
 
