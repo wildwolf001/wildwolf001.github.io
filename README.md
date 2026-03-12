@@ -13,7 +13,7 @@
 
 ## 本地开发
 
-在 `personal-site` 目录下执行：
+安装依赖：
 
 ```bash
 npm install
@@ -27,23 +27,14 @@ npm run build
 npm run preview
 ```
 
-## 自定义内容（改这些就够）
+## 自定义内容
 
 编辑 `src/stores/profile.ts`：
 
-- **name / title / tagline**：首页文案
-- **githubUsername**：用于从 GitHub API 自动同步项目列表
-- **skills / social**：技能标签与社交链接
-
-页面文件：
-
-- `src/views/HomePage.vue`
-- `src/views/ProjectsPage.vue`
-- `src/views/AboutPage.vue`
 
 ## 部署到 GitHub Pages（推荐：GitHub Actions）
 
-本项目已内置工作流：`personal-site/.github/workflows/deploy.yml`
+本项目已内置工作流：`.github/workflows/deploy.yml`
 
 ### 步骤
 
