@@ -8,9 +8,9 @@ export type SocialLink = {
 export const useProfileStore = defineStore('profile', {
   state: () => ({
     name: 'Yangli',
-    title: '前端工程师 · Vue/TypeScript/ajax/java...',
+    title: '有头发的程序猿· Vue/TypeScript/java/langchain4j/transformer...',
     tagline:
-      '全栈偏前端工程师，热爱开源，喜欢分享，专注于 Vue 生态，致力于构建高质量的 Web 应用。',
+      '忠于人民忠于党，热爱祖国热爱人民，热爱学习热爱工作，热爱生活热爱一切美好的事物！',
     location: 'China',
     email: '2404049355@qq.com',
 
@@ -19,9 +19,12 @@ export const useProfileStore = defineStore('profile', {
 
     skills: [
       { name: 'Vue', href: 'https://vuejs.org' },
-      { name: 'React', href: 'https://reactjs.org' },
       { name: 'TypeScript', href: 'https://www.typescriptlang.org' },
-      { name: 'Node.js', href: 'https://nodejs.org' }
+      { name: 'Node.js', href: 'https://nodejs.org' },
+      { name: 'Java', href: 'https://www.oracle.com/java/' },
+      { name: 'langchain4j', href: 'https://github.com/langchain/langchain4j' },
+      { name: 'Python', href: 'https://www.python.org' },
+      { name: 'Transformers', href: 'https://github.com/huggingface/transformers' },
     ]as { name: string; href: string }[],
 
 
