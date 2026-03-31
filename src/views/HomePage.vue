@@ -45,7 +45,7 @@ onMounted(load)
   <section class="hero">
     <div class="hero__bg" aria-hidden="true"></div>
     <div class="hero__content">
-      <p class="badge">Vite · Vue3 · TypeScript · Pinia · Axios</p>
+      <p class="badge"> Vue3+TypeScript,langchain4j+java,python+transformer....</p>
       <h1 class="h1">{{ heroTitle }}</h1>
       <p class="lead">{{ heroSubtitle }}</p>
       <p class="muted">{{ profile.tagline }}</p>
